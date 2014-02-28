@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: none;
+}
+
+.const{
+	height: 160px;
+	width: 60%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 80px;
+
+
+	text-align: center;
+
+	font-weight: 400;
+
+	background-color: #444444;
+	color: white;
+
+	border-radius: 10px;
+}

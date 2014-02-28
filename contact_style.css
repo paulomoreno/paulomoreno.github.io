@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.c_ctr{
+	width: 60%;
+	min-width: 550px;
+	height: auto;
+	overflow: auto;
+
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 6%;
+
+	padding: 4%;
+
+	background-color: white;
+	border-radius: 10px;
+
+	box-shadow: 0 0 4px #b2b2b2;
+
+	text-align: left;
+}
+
+.c_info{
+	width: 46%;
+	height: 100%;
+
+	float: left;
+}
+
+.c_form{
+	width: 40%;
+	height: 100%;
+	padding-left: 8%;
+
+	float: right;
+
+	text-align: justify;
+
+	border-left: 1px solid #aaaaaa;
+}
+
+.c_img{
+	height: 128px;
+	width: 128px;
+	border-radius: 100%;
+
+	margin-bottom: 2%;
+	box-shadow: 0 0 4px #828282;
+}
+
+.c_name{
+	font-size: 28pt;
+	color: 525252;
+}
+
+.c_subtitle{
+	font-size: 18pt;
+	color: #2c9407;
+
+	text-decoration: none;
+}
+
+.c_subtitle:hover{
+	color: #025400;
+}
+
+.c_text{
+	font-size: 14pt;
+	color: gray;
+}
