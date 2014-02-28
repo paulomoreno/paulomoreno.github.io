@@ -1,19 +1,9 @@
-<?php
-  $browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-    if ($browser == true){
-    $browser = 'iphone';
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<?php if($browser == 'iphone'){ ?>
-  		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-  	<?php } ?>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
 
@@ -151,7 +141,7 @@
       </div>
 
       <div class="c_form">
-	    <form name="contactform" method="post" action="send_email.php">
+	    <form name="contactform" method="post" action="">
 	      <p>*Name:<br/><input  type="text" name="first_name" maxlength="50" size="40%"></p><br/>
 	      <p>*Email:<br/><input  type="text" name="email" maxlength="80" size="40%"></p><br/>
 	      <p>Phone Number:<br/><input  type="text" name="telephone" maxlength="30" size="40%"></p><br/>

@@ -1,19 +1,9 @@
-<?php
-  $browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-    if ($browser == true){
-    $browser = 'iphone';
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<?php if($browser == 'iphone'){ ?>
-  		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-  	<?php } ?>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
 
@@ -36,13 +26,13 @@
 
       <ul class="nav">
         <li>
-          <a href="/#contact">Contato</a>
+          <a href="/en/#contact">Contact</a>
         </li>
         <li>
-          <a href="/#projects">Projetos</a>
+          <a href="/en/#projects">Projects</a>
         </li>
         <li> 
-          <a href="/">Início</a>
+          <a href="/en/">Home</a>
         </li>
       </ul>
     </div>
@@ -51,8 +41,8 @@
   <section class="feature_top">
   	<div class="b_right b_text_width_hack_because_html_is_stupid">
 	    <h1 class="b_heading">Bandejão</h1></br></br>
-	    <p>Um novo jeito de consultar o cardápio do Restaurante Universitário da USP de São Carlos.</p>
-	    <p><a href="#"><img  class="badge" src="/img/Download_on_the_App_Store_Badge_PTBR_135x40.svg"></a></p>
+	    <p>A new and easy way of checking the USP (São Carlos campus) restaurant's menu.</p>
+	    <p><a href="#"><img  class="badge" src="/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg"></a></p>
 	</div>
     <div class="b_left">
     	<img class="b_img" src="/img/screen0.png">
@@ -69,8 +59,8 @@
 	<section class="feature">
 		<div class="feature_ctr">
 	        <div class="b_left b_text_width_hack_because_html_is_stupid">
-		        <h1 class="b_heading">Dias da Semana</h1><br/><br/>
-		        <p class="b_text">Com uma interface simples e intuitiva, é possível consultar a próxima refeição ou consultar todas as refeições da semana.</p>
+		        <h1 class="b_heading">Days View</h1><br/><br/>
+		        <p class="b_text">Simple and intuitive interface.</p><p>You can easily check the next meal or check all the meals from this week.</p>
 		    </div>
 		    <div class="b_right">
 	    		<img class="b_img" src="/img/screen1.png">
@@ -82,8 +72,8 @@
     	<div class="feature_ctr">
 	    	<div class="b_left"><img class="b_img" src="/img/screen2.png"></div>
 	        <div class="b_right b_text_width_hack_because_html_is_stupid">
-		        <h1 class="b_heading">Busca por Pratos<h1><br/><br/>
-		        <p class="b_text">Também é possível realizar buscas pelo pretos. Para isto, basta clicar no texto de qualquer refeição e, sem sair do aplicativo, é possível visualizar imagens através de uma busca no Google.</p>
+		        <h1 class="b_heading">Pictures Search<h1><br/><br/>
+		        <p class="b_text">You can also search for pictures of a meal. With one click on any meal, you can easily check pictures on Google images without exiting the App.</p>
 	      	</div>
       	</h1>
     </section>
@@ -91,8 +81,8 @@
     <section class="feature">
       	<div class="feature_ctr">        
 	        <div class="b_left b_text_width_hack_because_html_is_stupid">
-        		<h1 class="b_heading">Notificações</h1><br/><br/>
-        		<p class="b_text">Quer receber notificações? Basta ativar um botão e uma notificação com a descrição da refeição será exibida 1 hora antes do inicio de cada refeição.</p>
+        		<h1 class="b_heading">Notifications</h1><br/><br/>
+        		<p class="b_text">Do you want to receive notifications? Just activate the notifications switch and you will receive a notification 1 hour before each meal.</p>
       		</div>
      		<div class="b_right">
     			<img class="b_img" src="/img/screen3.png">
@@ -109,16 +99,16 @@
     <section>
       <ul class="site_map">
         <li>
-          <h1><a href="/">Início</a></h1></br>
+          <h1><a href="/en/">Home</a></h1></br>
         </li> 
         <li>
-          <h1><a href="/#projects">Projetos</a></h1></br>
+          <h1><a href="/#projects">Projects</a></h1></br>
           <a href="http://turtlebio.com">TurtleBio</a></br>
           <a href="/bandejao/">Bandejao</a></br>
           <a href="/kinnav/">KINNAV</a></br>
         </li> 
         <li>
-          <h1><a href="/#contact">Contato</a></h1></br>
+          <h1><a href="/#contact">Contact</a></h1></br>
         </li>
       </ul>
     </section>
@@ -126,11 +116,11 @@
     </section>
 
     <section>
-      <span>"Quotation Marks" por Eakarius da coleção <a href="http://thenounproject.com/">The Noun Project</a>.</span>
+      <span>"Quotation Marks" by Eakarius from the <a href="http://thenounproject.com/">The Noun Project</a> collection.</span>
     </section>
 
     <section>
-        <p>Desenvolvido por Paulo Moreno - Design por Pedro Moreno</p>
+        <p>Developed by Paulo Moreno - Design by Pedro Moreno</p>
         <p><a class="nav_item" href="/bandejao/">Português (Brasil)</a> | <a href="/en/bandejao/">English</a></span></p>
     </section>
 
