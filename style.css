@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-image: url("img/bkg_small.jpg");
+	background-image: url("/img/bkg_small.jpg");
 	background-attachment: fixed;
 	overflow-x:hidden;
 }
@@ -122,7 +122,7 @@ body{
 }
 
 .projects{
-	background-image: url("img/concrete_Wall.png");	
+	background-image: url("/img/concrete_Wall.png");	
 	width: 80%;
 	height: auto;
 	overflow: auto;
@@ -206,7 +206,7 @@ body{
 @media screen and (min-device-width: 2048px) and (max-device-width: 3071px){
 	/* Uses a larger background for big devices */
  	body{
-	  	background-image: url("img/bkg_medium.jpg");
+	  	background-image: url("/img/bkg_medium.jpg");
 
 	}
 
@@ -251,6 +251,6 @@ body{
 @media screen and (min-device-width: 3072px){
 	/* Uses a larger background for big devices */
  	body{
-	  	background-image: url("img/bkg_big.jpg");
+	  	background-image: url("/img/bkg_big.jpg");
 	}
 }
