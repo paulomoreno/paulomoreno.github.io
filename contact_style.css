@@ -2,30 +2,14 @@
 /* CSS Document */
 
 .c_ctr{
-	width: 60%;
-	min-width: 550px;
 	height: auto;
 	overflow: auto;
 
 	margin: auto;
+	padding-top: 10px;
 	margin-top: 4%;
 	margin-bottom: 6%;
 
-	padding: 4%;
-
-	background-color: white;
-	border-radius: 10px;
-
-	box-shadow: 0 0 4px #b2b2b2;
-
-	text-align: left;
-}
-
-.c_info{
-	width: 46%;
-	height: 100%;
-
-	float: left;
 }
 
 .c_form{
@@ -45,6 +29,9 @@
 	width: 128px;
 	border-radius: 100%;
 
+	border: solid 2px white;
+
+
 	margin-bottom: 2%;
 	box-shadow: 0 0 4px #828282;
 }
@@ -56,16 +43,44 @@
 
 .c_subtitle{
 	font-size: 18pt;
-	color: #2c9407;
+	color: #0095D5;
 
 	text-decoration: none;
 }
 
 .c_subtitle:hover{
-	color: #025400;
+	color: #0065A5;
 }
 
 .c_text{
 	font-size: 14pt;
 	color: gray;
+}
+
+.c_ctr.social{
+	padding: 0;
+	height: 55px;
+}
+
+.social a{
+	width: 50px;
+	height: 50px;
+}
+
+.social img{
+	position: relative;
+	margin-top: 0;
+	width: 45px;
+	height: 45px;
+	top: 0;
+	/*Transition*/
+	-webkit-transition: All 0.2s ease;
+	-moz-transition: All 0.2s ease;
+	-o-transition: All 0.2s ease;
+	-ms-transition: All 0.2s ease;
+	transition: All 0.2s ease;
+}
+
+.social a:hover img{
+	top: 5px;
 }

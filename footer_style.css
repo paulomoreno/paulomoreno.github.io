@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-
-.footer section{
+footer div{
 	width: 80%;
 	min-width: 500px;
 	height: auto;
@@ -13,13 +12,14 @@
 	overflow: auto;
 }
 
-.footer section:nth-child(1){
+footer div:nth-child(1){
 	padding-top: 80px;
 	margin-top: 0;
 }
 
-.footer section:last-child{
+footer div:last-child{
 	width: 100%;
+	height: 20px;
 	padding: 5px 0px 5px 0px;
 
 	background-color: rgba(0,0,0,0.2);
@@ -27,31 +27,37 @@
 	color: #eeeeee;
 }
 
-.footer section:last-child p:first-child{
+footer div:last-child p{
+	line-height: 20px;
+}
+
+
+footer div:last-child p:first-child{
 	margin-left: 10%;
 	float: left;
 }
 
-.footer section:last-child p:last-child{
+footer div:last-child p:last-child{
 	margin-right: 10%;
 	float:right;
 }
 
-.footer section:last-child a{
+footer div:last-child a{
 	text-decoration: none;
-	color:#ccffcc;
-}
-.footer section:last-child a:hover{
-	color:#aaddaa;
+	color:#ccccff;
 }
 
-.footer section li{
+footer div:last-child a:hover{
+	color:#aaaadd;
+}
+
+footer div li{
 	width: 150px;
 	list-style: none;
 	float: left;
 }
 
-.footer section li:nth-child(2){
+footer div li:nth-child(2){
 	border-left: 1px dashed rgba(255,255,255,0.2);
 	border-right: 1px dashed rgba(255,255,255,0.2);
 
@@ -65,42 +71,42 @@
 	overflow: auto;
 }
 
-.footer h1{
+footer h1{
 	font-size: 16pt;
 	color: black;
 }
 
 
-.footer li h1 a{
+footer li h1 a{
 	text-decoration: none;
 	font-size: 16pt;
 	color: black;
 }
 
-.footer li h1 a:hover{
+footer li h1 a:hover{
 	color: #333333;
 }
 
-.footer li a{
+footer li a{
 	font-size:  12pt;
 	text-decoration: none;
 	color: #333333;
 }
 
-.footer li a:hover{
+footer li a:hover{
 	color: #555555;
 }
 
-.footer span{
+footer span{
 	font-size: 10pt;
 }
 
-.footer span a{
+footer span a{
 	font-size:  10pt;
 	text-decoration: none;
 	color: #333333;
 }
 
-.footer span a:hover{
+footer span a:hover{
 	color: #555555;
 }
